@@ -6,7 +6,7 @@ The objects each have the `include` statements so that you can easily delete the
 
 ### Usage
 
-`python midi2notificationmsgs.py > <song_name>.h`
+`python midi2notificationmsgs.py file.mid > <song_name>.h`
 
 Then locate the channel you want and rename it to \<song\_name\>. The rest of the contents of the file can be removed
 
