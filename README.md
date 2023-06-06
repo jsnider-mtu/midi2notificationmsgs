@@ -11,3 +11,7 @@ The objects each have the `include` statements so that you can easily delete the
 Then locate the channel you want and rename it to \<song\_name\>. The rest of the contents of the file can be removed
 
 Be sure to `#include` the file in your program
+
+### Notes
+
+- The Flipper Zero can only play one note at a time so in the case of chords we only grab the highest note. If a lower note starts at the same time but is held longer than the highest note it is still lost
